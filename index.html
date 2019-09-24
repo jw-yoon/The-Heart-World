@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Heart World</title>
+	<style type="text/css">
+    @font-face { font-family: 'DungGeunMo'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+    #mybody{width: 1100px; height: 3500px; background-color: black; margin: auto; padding: block; }
+
+    #clickme{width: 400px; height: 100px; text-align:center; position: fixed; left: 105px; top: 380px; color: white; font-family: 'DungGeunMo'; font-size: 18pt; z-index: 99;}
+
+		#heart{width: 400px; position: fixed; left: 100px; top: 100px; z-index: 100;}
+
+		#melt{width: 520px; height: 320px; background: url('melt.gif'); opacity: 0; position: absolute; left: 100px; top: 10px; z-index: 10;}
+    #loop{width: 900px; height: 900px; background: url('loop.gif'); opacity: 0; position: absolute; left: 400px; top: 300px; z-index: 50;}
+    #looploop{width: 600px; height: 700px; background: url('loop.gif'); opacity: 0; position: absolute; left: 100px; top: 1300px; z-index: 50;}
+    #long{width: 768px; height: 960px; opacity: 0; position: absolute; left: 700px; top: 1300px; z-index: 51;}
+    #downn{width: 200px; height: 100px; position: fixed; left: 120px; top: 680px; color: white; font-family: 'DungGeunMo'; opacity: 0;font-size: 25pt; z-index: 99;}
+    #titi{width: 800px; height: 500px; position: fixed; left: 830px; top: 1px; color: white; font-family: 'DungGeunMo'; opacity:0; font-size: 100pt; z-index: 65;margin: 0; padding:0;}
+    #dudoom{width: 210px; height: 210px; position: fixed; left: 80px; top: 627px; opacity: 0; z-index: 98;}
+    #feb{opacity: 0;}
+    #bangul{opacity: 0; position: absolute; left: 150px; top: 850px;}
+    #ban{opacity: 0; position: relative; left: 100px; top: 180px; z-index: 77;}
+    #charm{opacity: 0; position: absolute; top: 2000px; left: 380px; z-index: 60;}
+    #meltt{width: 620px; height: 420px; background: url('melt.gif'); opacity: 0; position: absolute; left: 997px; top: 1000px; z-index: 81;}
+    #fall{ width: 530px; height: 530px; opacity: 0; position: absolute; left: 10px; top: 320px; z-index: 73;}
+    #falll{ width: 860px; height: 860px; opacity: 0; position: absolute; left: 25px; top: 2540px; z-index: 11;}
+    #fallll{ width: 860px; height: 860px; opacity: 0; position: absolute; left: 800px; top: 2540px; z-index: 10;}
+    #pop{width: 480px; height: 640px; opacity: 0; position: absolute; top:1800px; left: 10px;}
+    #popp{width: 480px; height: 640px; opacity: 0; position: absolute; top: 1950px; left: 1120px;}
+    #me{width: 500px; height: 100px; position: absolute; top: 3400px; left: 1200px; opacity: 1; color: white; font-family: "DungGeunMo"; font-size: 18px;}
+    #ufo{opacity: 0; position:absolute; width: 480px; height: 480px; top: 1000px; left: 300px; z-index: 88;}
+    #ufoo{opacity: 0; position: absolute; width: 300px; height: 358px; top: 1600px; left: 130px; z-index: 83;}
+    #fire{opacity: 0; width:500px; height: 396px; position: absolute; top: 2750px; left: 160px; z-index: 20;}
+	</style>
+
+</head>
+  <body id="mybody">
+    <div id="clickme"><p>Click the heart and <br>enjoy the Fantastic Heart World!</p></div>
+ 	  <img src="heart.gif" id="heart">
+ 	  <img src="loop.gif" id="loop">
+    <img src="loop.gif" id="looploop">
+    <img src="melt.gif" id="melt">
+    <img src="long.gif" id="long">
+    <img src="dudoom.gif" id="dudoom">
+    <div id="downn"><p>Go down!</p></div>
+    <div id="titi"><p>Welcome to<br>Heaaaaaaart World!</p></div>
+    <img src="bangul.gif" id="bangul">
+    <img src="ban.gif" id="ban">
+    <img src="charm.gif" id="charm">
+    <img src="melt.gif" id="meltt">
+    <img src="fall.gif" id="fall">
+    <img src="fall.gif" id="falll">
+    <img src="fall.gif" id="fallll">
+    <img src="pop.gif" id="pop">
+    <img src="pop.gif" id="popp">
+    <div id="me"><p>2019.09.25 Jeongwoon Yoon all rights reserved</p></div>
+    <img src="ufo.gif" id="ufo">
+    <img src="ufoo.gif" id="ufoo">
+    <img src="fire.gif" id="fire">
+ 	  <audio controls loop id="feb">
+  		<source src="February.mp3" type="audio/mpeg" autostart="true">
+  	</audio>
+  	<script type="text/javascript">
+  		heart.onclick = function(){
+  		heart.style.opacity = "0";
+  		loop.style.opacity = "1";
+      looploop.style.opacity = "1";
+      melt.style.opacity = "1";
+      meltt.style.opacity = "1";
+      clickme.style.opacity = "0";
+      downn.style.opacity = "1";
+      titi.style.opacity = "1";
+      long.style.opacity = "1";
+      dudoom.style.opacity = "1";
+  		feb.play();
+      bangul.style.opacity = "1";
+      ban.style.opacity = "1";
+      charm.style.opacity = "1";
+      fall.style.opacity = "1";
+      falll.style.opacity = "0.3";
+      fallll.style.opacity = "0.4";
+      pop.style.opacity = "1";
+      popp.style.opacity = "1";
+      ufo.style.opacity = "1";
+      ufoo.style.opacity = "1";
+      fire.style.opacity = "1";
+  	}
+  	</script>
+
+   
+  		
+
+</body>
+</html>
